@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: #3B3561;
+    color: #DAE3E5;
+}
+.destaquetitulo {
+    color: #23CE6B;
+}
+.mainpai {
+    padding: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sectionmain {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.smtitulo {
+   font-size: 40px;
+   font-family: "Roboto Mono", monospace;
+}
+.smparagrafo {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+}
+.botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+
+}
+.linksRedes {
+    font-family: "Robo Mono", monospace;
+    font-weight: 400;
+    font-size: 25px;
+    
+}
+.smlink {
+    /* background-color: #23CE6B; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 350px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 22px 0;
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid #23CE6B;
+
+}
+.smlink:hover {
+    background-color: #23CE6B;
+}
+.rodape {
+    padding: 18px;
+    text-align: center;
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 18px;
+    color: #DAE3E5;
+    background-color: #23CE6B;
+    font-weight: 400;
+
+}
